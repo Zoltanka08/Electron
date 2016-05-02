@@ -1,0 +1,43 @@
+﻿@model Electron.ViewModels.StockViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2 id="loginText" class="col-md-12 text-center">Edit</h2>
+
+<div class="content-wrapper">
+    <div class="col-md-4"></div>
+    <div id="borderSolid" class="col-md-4 text-center">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend>StockViewModel</legend>
+
+                @Html.HiddenFor(model => model.id)
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.cantity, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.cantity)
+                    @Html.ValidationMessageFor(model => model.cantity)
+                </div>
+
+                <p>
+                    <input type="submit" value="Save" class="float-right" />
+                </p>
+            </fieldset>
+        }
+
+        <div>
+            @Html.ActionLink("Back to Stock", "Index", "Stock", null, new { @class = "float-right" })
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

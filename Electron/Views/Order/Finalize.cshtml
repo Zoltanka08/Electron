@@ -1,0 +1,56 @@
+﻿@model Electron.ViewModels.PaymentMethodViewModel
+
+@{
+    ViewBag.Title = "Finalize";
+}
+
+<script src="~/Scripts/jquery-1.8.2.js"></script>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>PaymentMethodViewModel</legend>
+
+        <input type="hidden" id="hidText" name="hidText" />
+
+        <div class="col-md-12 title centru">
+            <h2 class="center-block">Choose Payment Method</h2>
+        </div>
+        <div class="content-wrapper">
+            <div class="col-md-4" id="topPadding50"></div>
+            <div class="col-md-4" id="topPadding50">
+                @Html.DropDownListFor(m => m.id, Model.MethodItems)
+            </div>
+            <div class="col-md-4" id="topPadding50"></div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="col-md-4" id="topPadding10"></div>
+            <div class="col-md-4" id="topPadding10">
+
+            </div>
+            <div class="col-md-4 finalizeButton">
+                <input type="submit" value="Finalize" class="btn btn-success" id="buttonText backPadding" />
+                <br />
+                <br />
+                @Html.ValidationMessage("NoIBAN", "Please edit your user credentials, and fill the IBAN field!")
+            </div>
+            <div class="col-md-4" id="topPadding50"></div>
+        </div>
+
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "float-right", id = "backPadding" })
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script src="~/Content/bootstrap/Js/PaymentInput.js"></script>

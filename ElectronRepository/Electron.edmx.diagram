@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ea78a8d09c324c5eb6c04be383dadd0e" Name="Diagram1">
+        <EntityTypeShape EntityType="ElectroShopModel.Category" Width="1.5" PointX="1.5" PointY="17" />
+        <EntityTypeShape EntityType="ElectroShopModel.Order" Width="1.5" PointX="4.25" PointY="2.25" />
+        <EntityTypeShape EntityType="ElectroShopModel.OrderState" Width="1.5" PointX="0.75" PointY="9.625" />
+        <EntityTypeShape EntityType="ElectroShopModel.PaymentMethod" Width="1.5" PointX="0.75" PointY="7.25" />
+        <EntityTypeShape EntityType="ElectroShopModel.Product" Width="1.5" PointX="0.75" PointY="12" />
+        <EntityTypeShape EntityType="ElectroShopModel.Role" Width="1.5" PointX="3.75" PointY="8.125" />
+        <EntityTypeShape EntityType="ElectroShopModel.Stock" Width="1.5" PointX="3" PointY="12.875" />
+        <EntityTypeShape EntityType="ElectroShopModel.UserRole" Width="1.5" PointX="7" PointY="3.125" />
+        <EntityTypeShape EntityType="ElectroShopModel.User" Width="1.5" PointX="0.75" PointY="2.125" />
+        <AssociationConnector Association="ElectroShopModel.FK__Products__catego__1DE57479" />
+        <AssociationConnector Association="ElectroShopModel.FK__Orders__order_st__2B3F6F97" />
+        <AssociationConnector Association="ElectroShopModel.FK__Orders__payment___2A4B4B5E" />
+        <AssociationConnector Association="ElectroShopModel.FK__Orders__product___29572725" />
+        <AssociationConnector Association="ElectroShopModel.FK__Orders__user_id__286302EC" />
+        <AssociationConnector Association="ElectroShopModel.FK__Stock__product_i__21B6055D" />
+        <AssociationConnector Association="ElectroShopModel.FK__UserRole__role_i__164452B1" />
+        <AssociationConnector Association="ElectroShopModel.FK__UserRole__user_i__34C8D9D1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

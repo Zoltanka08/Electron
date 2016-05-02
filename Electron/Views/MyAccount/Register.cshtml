@@ -1,0 +1,133 @@
+﻿@model Electron.ViewModels.UserViewModel
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <div><h1 class="col-md-11 text-center">Register</h1></div>
+    <div id="linebreak"></div>
+    <div class="content-wrapper">
+        <div class="col-md-4"></div>
+        <div id="borderSolid" class="col-md-4">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+                <fieldset>
+                    <legend>UserViewModel</legend>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.mail, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.mail)
+                        @Html.ValidationMessageFor(model => model.mail)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.firstname, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.firstname)
+                        @Html.ValidationMessageFor(model => model.firstname)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.lastname, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.lastname)
+                        @Html.ValidationMessageFor(model => model.lastname)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.username, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.username)
+                        @Html.ValidationMessageFor(model => model.username)
+                        @Html.ValidationMessage("UserFound");
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.pass, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.PasswordFor(model => model.pass)
+                        @Html.ValidationMessageFor(model => model.pass)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.mobile, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.mobile)
+                        @Html.ValidationMessageFor(model => model.mobile)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.country, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.country)
+                        @Html.ValidationMessageFor(model => model.country)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.city, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.city)
+                        @Html.ValidationMessageFor(model => model.city)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.street, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.street)
+                        @Html.ValidationMessageFor(model => model.street)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.number, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.number)
+                        @Html.ValidationMessageFor(model => model.number)
+                    </div>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.IBAN, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.IBAN)
+                        @Html.ValidationMessageFor(model => model.IBAN)
+                    </div>
+
+                    <p>
+                        <input type="submit" value="Create" class="float-right" />
+                    </p>
+                </fieldset>
+            }
+
+            <div>
+                @Html.ActionLink("Back to login", "Login", "MyAccount", null, new { @class = "float-right" })
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

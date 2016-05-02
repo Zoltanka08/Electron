@@ -1,0 +1,104 @@
+﻿@model Electron.ViewModels.ChitantaViewModel
+
+@{
+    ViewBag.Title = "Chitanta";
+}
+
+<h2 class="col-lg-12 text-center">Chitanta</h2>
+
+<fieldset id="borderSolid">
+    <legend>ChitantaViewModel</legend>
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("First Name")
+    </div>
+    <div class="display-field text-center">
+        @Html.DisplayFor(model => model.User.firstname)
+    </div>
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("Last Name")
+    </div>
+    <div class="display-field text-center">
+        @Html.DisplayFor(model => model.User.lastname)
+    </div>
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("Address")
+    </div>
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("Country")
+    </div>
+    <div class="display-field text-center">
+        @Html.DisplayFor(model => model.User.country)
+    </div>
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("City")
+    </div>
+    <div class="display-field text-center">
+        @Html.DisplayFor(model => model.User.city)
+    </div>
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("Street")
+    </div>
+    <div class="display-field text-center">
+        @Html.DisplayFor(model => model.User.street)
+    </div>
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("Number")
+    </div>
+    <div class="display-field text-center">
+        @Html.DisplayFor(model => model.User.number)
+    </div>
+
+    <div class="display-label text-uppercase text-center">
+        @Html.DisplayName("Products")
+    </div>
+    @{<div class="col-md-4"></div>
+        <div class="col-md-4">
+            <table class=" table table-hover table-bordered table-responsive">
+                <tr>
+                    <td>
+                        <div class="display-label text-uppercase text-center">
+                            @Html.DisplayName("Name")
+                        </div>
+                    </td>
+                    <td>
+                        <div class="display-label text-uppercase text-center">
+                            @Html.DisplayName("Price")
+                        </div>
+                    </td>
+                </tr>
+                @foreach (var product in Model.Products)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.brand)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.price)
+                        </td>
+                    </tr>
+                }
+            </table>
+
+        </div>
+        <div class="col-md-4"></div>
+    }
+
+    <div class="display-label text-uppercase text-center col-lg-12">
+        @Html.DisplayName("Total")
+    </div>
+    <div class="display-field text-center col-lg-12">
+        @{
+            double total = 0.0;
+            foreach (var prod in Model.Products)
+            {
+                total += (double)prod.price;
+            }
+
+            @total
+        }RON
+    </div>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Back to Shop", "Index", "Product", null, new { @class = "float-right", id = "backPadding" })
+</p>

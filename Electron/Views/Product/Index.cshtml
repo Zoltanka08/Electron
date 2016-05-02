@@ -1,0 +1,137 @@
+﻿@model PagedList<Electron.ViewModels.ProductViewModel>
+@using PagedList;
+@using PagedList.Mvc;
+;
+@{
+    ViewBag.Title = "Products";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p id="loginText" class="col-md-12 text-center">
+        @{if (Request.IsAuthenticated && ViewBag.isAdmin)
+        {
+            @Html.ActionLink("Create New", "Create")
+        }
+        }
+    </p>
+
+    <div class="content-wrapper">
+        <div id="categoryTable" class="col-md-2">
+            <p id="categoryTitle" class="text-center">SHOP BY CATEGORY</p>
+            @foreach (ElectronRepository.Category category in ViewBag.categories)
+            {
+                @Html.ActionLink(category.name, "Index", "Product", new { category_id = category.id }, new { id = "productCategory" })
+                <br />
+            }
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        @{int nr = 0;
+        foreach (var item in Model)
+        {
+            <div class="row">
+                @{if (nr != 0)
+                {
+
+                    if (nr == 1)
+                    {
+                        <div id="brandTable" class="col-md-2">
+                            <p id="categoryTitle" class="text-center">SHOP BY BRAND</p>
+                            @foreach (string brand in ViewBag.brands)
+                            {
+                                @Html.ActionLink(brand, "Index", "Product", new { brandName = brand }, new { id = "productCategory" })
+                                <br />
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        if (nr == 2)
+                        {
+                            <div id="brandTable" class="col-md-2">
+                                <p id="categoryTitle" class="text-center">SHOP BY PRICE</p>
+                                @foreach (string cost in ViewBag.costs)
+                                {
+                                    @Html.ActionLink(cost + " RON", "Index", "Product", new { interval = cost }, new { id = "productCategory" })
+                                    <br />
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-md-2">
+                                <p class="text-center"></p>
+                            </div>
+                        }
+                    }
+
+                    nr = nr + 1;
+                }
+                else
+                {
+                    nr = nr + 1;
+                }
+                }
+
+                <div class="col-md-4">
+                    @{
+            string path = @"Images\" + @item.fileName;
+            <a href="@Url.Action("Index", "Product")"><img src="@path" alt="@item.name" height="300" width="300" class="img-responsive center-block" /></a>
+                    }
+                </div>
+
+                <div class="col-md-4">
+                    <p id="productName" class="title text-center">@item.brand </p>
+                    <br />
+                    <p id="productName" class="title text-center"> @item.price  RON</p>
+                    <br />
+                    <p id="description" class="title text-center"> @item.description </p>
+                    @{
+            if (Request.IsAuthenticated)
+            {
+                <input type="button" value="Add To Cart" id="buttonText" class="btn-default" onclick="location.href='@Url.Action("AddToCart", "Order", new { product_id = item.id })'" />
+            }
+                    }
+                    <hr />
+                </div>
+
+                <div class="col-md-1">
+                    @{if (Request.IsAuthenticated && ViewBag.isAdmin)
+                    {
+                        @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { id = "loginText" })
+                        using (Html.BeginForm("Delete", "Product", FormMethod.Post, new { id = item.id }))
+                        {
+                            <button id="buttonText" type="submit" value="Delete" onclick="return confirm('Are you sure?')">Delete</button>
+
+                        }
+                    }
+                    }
+                </div>
+            </div>
+        }
+        }
+    </div>
+
+    <div>
+        @Html.ActionLink("Report", "Report", "Product", null, null);
+    </div>
+    <div id='Paging' style="text-align: center">
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+        of @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+    </div>
+</body>
+</html>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

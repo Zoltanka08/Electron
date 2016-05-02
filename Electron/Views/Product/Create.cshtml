@@ -1,0 +1,101 @@
+﻿@model Electron.ViewModels.ProductViewModel
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <div id="loginText" class="col-md-12 text-center">Create Product</div>
+
+    <div class="content-wrapper">
+        <div class="col-md-4"></div>
+        <div id="borderSolid" class="col-md-4 text-center">
+            @using (Html.BeginForm("Create", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+                <fieldset>
+                    <legend>ProductViewModel</legend>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.name, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.name)
+                        @Html.ValidationMessageFor(model => model.name)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.price, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.price)
+                        @Html.ValidationMessageFor(model => model.price)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.brand, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.brand)
+                        @Html.ValidationMessageFor(model => model.brand)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.rating, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.rating)
+                        @Html.ValidationMessageFor(model => model.rating)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.image, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        <input type="file" name="file" class="center-block" />
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.description, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.description)
+                        @Html.ValidationMessageFor(model => model.description)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.categoryName, new { @class = "text-left", id = "loginText" })
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.categoryName)
+                        @Html.ValidationMessageFor(model => model.categoryName)
+                    </div>
+
+
+                    <p>
+                        <input type="submit" value="Create" class="float-right" />
+                    </p>
+                </fieldset>
+            }
+
+            <div>
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "float-right" })
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,360 @@
+id = 2
+name = Asus
+price = 1999.99
+brand = Asus F55
+rating = 4
+data = null
+description = Capacitate memorie RAM:4 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Slot 1:4096 MB
+category_id = 0
+image = C:\Users\Zoli\Documents\Visual Studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Asus F55.jpg
+fileName = Asus F55.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 3
+name = Samsung
+price = 2499.99
+brand = Samsung Np350
+rating = 4
+data = 11/1/2016 12:00:00 AM
+description = Rezolutie:1366 x 768Format display:HDTip display:LCD LED,Tip memorie video:DedicataCapacitate memorie video:2048 MB
+category_id = 0
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\samsung_np350.jpg
+fileName = samsung_np350.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 4
+name = Acer
+price = 2799.99
+brand = Satellite P55t
+rating = 5
+data = 11/1/2015 12:00:00 AM
+description = Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB
+category_id = 0
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Toshiba_Satellite_P55t.jpg
+fileName = Toshiba_Satellite_P55t.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 5
+name = Acer
+price = 1599.99
+brand = Acer Aspire V5
+rating = 3
+data = 9/1/2016 12:00:00 AM
+description = Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB
+category_id = 0
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\acer_aspire_v5.jpg
+fileName = acer_aspire_v5.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 7
+name = HP
+price = 2599.99
+brand = HP Pavilion dv7
+rating = 5
+data = 6/1/2016 12:00:00 AM
+description = Tip procesor:Intel® CoreTM i7Model procesor:4720HQNumar nuclee:4Tehnologie procesor:22 nmFrecventa procesor:2600 MHzArhitectura:HaswellCache:6144 KB
+category_id = 0
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\HP_Pavilion_dv7.jpg
+fileName = HP_Pavilion_dv7.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 16
+name = Apple IPhone
+price = 1749.99
+brand = IPhone S5
+rating = 5
+data = 11/1/2016 12:00:00 AM
+description = Model Procesor:A7 64-bit (coprecesor M7 motion), Memorie RAM:1 GBMemorie interna:16 GB
+category_id = 2
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\IPhone S5.jpg
+fileName = IPhone S5.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 19
+name = Motorola
+price = 2199.99
+brand = Motorola Moto 360
+rating = 4
+data = 11/1/2016 12:00:00 AM
+description = Procesor Qualcomm Snapdragon 1.2GHz, Memorie (MB): 512, Memorie interna 4GB
+category_id = 13
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Moto.jpg
+fileName = Moto.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 20
+name = Lenovo
+price = 649
+brand = Lenovo Tab2 A10-30
+rating = 4
+data = 11/1/2016 12:00:00 AM
+description = Capacitate memorie RAM:4 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Slot 1:4096 MB
+category_id = 3
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Tableta Lenovo.jpg
+fileName = Tableta Lenovo.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 21
+name = Samsung
+price = 1599.99
+brand = Samsung Galaxy S5
+rating = 5
+data = null
+description = Model Procesor:Quad CoreFrecventa procesor:2500, Slot memorie (tip):MicroSD (pana la 128 GB)Memorie RAM:2 GBMemorie interna:16 GB
+category_id = 2
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Samsung Galaxy S5.jpg
+fileName = Samsung Galaxy S5.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 22
+name = Apple IPhone
+price = 4000.99
+brand = iPhone 6S
+rating = 5
+data = null
+description = Sistem de operare:IOS 9Tip SIM:nanoSIM Memorie Slot memorie (tip):NuMemorie RAM:2 GBMemorie interna:64 GB
+category_id = 2
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\IPhone S6.jpg
+fileName = IPhone S6.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 23
+name = Huawei
+price = 999.99
+brand = Huawei P8 Lite
+rating = 4
+data = null
+description = Model Procesor:Hisilicon Kirin 620 Octa CoreFrecventa procesor:1200, Slot memorie (tip):MicroSD (pana la 128 GB) in slot SIM 2Memorie RAM:2 GBMemorie interna:16 GB, Tip display:IPS LCDRezolutie (pixeli):1280 x 720
+category_id = 2
+image = c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Huawei P8 Lite.jpg
+fileName = Huawei P8 Lite.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 24
+name = Asus 
+price = 749
+brand = Asus ZenPad
+rating = 4
+data = null
+description = Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB
+category_id = 3
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Asus Zen.jpg
+fileName = Asus Zen.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 25
+name = Asus
+price = 659.99
+brand = Allview Viva H7 Xtreme
+rating = 4
+data = null
+description = Capacitate memorie RAM:4 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Slot 1:4096 MB
+category_id = 3
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Allview Xtreme.jpg
+fileName = Allview Xtreme.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 26
+name = Lenovo
+price = 1149.99
+brand = Lenovo Tab Yoga 2 
+rating = 4
+data = null
+description = Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB
+category_id = 3
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Lenovo Yoga.jpg
+fileName = Lenovo Yoga.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 27
+name = Samsung
+price = 1099.99
+brand = Televizor LED Samsung
+rating = 3
+data = null
+description = Diagonala ecran (cm):80Rezolutie:1920 x 1080Aspect imagine:16:9Caracteristici superioare imagine:PQI 200 Mega Contrast Wide Color Enhancer (Plus) Film Mode
+category_id = 4
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Samsung LED.jpg
+fileName = Samsung LED.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 28
+name = Philips
+price = 2199.99
+brand = Televizor Smart Android 3D LED Philips
+rating = 5
+data = 11/10/2015 12:00:00 AM
+description = Diagonala ecran (cm):102Rezolutie:1920 x 1080Luminozitate:350 cd/mpAspect imagine:16:9Caracteristici superioare imagine:Perfect Motion Rate 800 Micro Dimming Pro Super resolution Perfect Natural Motion
+category_id = 4
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Philips Android.jpg
+fileName = Philips Android.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 29
+name = Sony
+price = 779
+brand = Televizor LED UTOK
+rating = 3
+data = null
+description = Diagonala ecran (cm):80Rezolutie:1366 x 768Luminozitate:200 cd/m²Timp de raspuns:6.5 msAspect imagine:16 : 9Contrast nativ:3000:1Unghi de vizibilitate:178 / 178
+category_id = 4
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\UTKO.jpg
+fileName = UTKO.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 30
+name = Sony
+price = 999.99
+brand = Sony HDRCX240EB
+rating = 3
+data = null
+description = Mediu inregistrare:Memory CardTip memorie:Memory Stick Micro MicroSDHC Micro SDXC Micro SDFormat inregistrare video:Full HD HDMod inregistrare:HD: 1920 x 1080 / 50P HD: 1440 x 1080 1280 x 720 / 25pFormate suportate:MPEG-4 AVC/H.264
+category_id = 5
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Sony Camera.jpg
+fileName = Sony Camera.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 31
+name = Sony
+price = 6999.99
+brand = Sony HDRCX900EB
+rating = 5
+data = null
+description = Mod inregistrare:HD: 1920 x 1080 / 50p (PS), 25p (FX,FH), 50i (FX,FH) HD: 1920 x 1080 / 50P, 25P, 24P HD: 1440 x 1080 / 50i (HQ,LP)
+category_id = 5
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Sony Best.jpg
+fileName = Sony Best.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 32
+name = Canon
+price = 698
+brand = Canon PowerShot SX410
+rating = 4
+data = null
+description = Rezolutie senzor:20.0 MpProcesor imagine:DIGIC 4 cu tehnologie iSAPSDimensiune senzor:1/2.3"Format fisier imagine:JPEG (Exif 2.3 / DPOF 1.1)Stabilizator de imagine:Da (cu deplasarea obiectivului), aprox. 2,5 trepte
+category_id = 1013
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Canon.jpg
+fileName = Canon.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 33
+name = Sony
+price = 347.99
+brand = Sony DSCW810B
+rating = 3
+data = null
+description = Rezolutie senzor:20.0 MpDimensiune senzor:1/2.3"Format fisier imagine:JPEGStabilizator de imagine:Stabilizare electrica SteadyShot
+category_id = 1013
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Sony Szappan.jpg
+fileName = Sony Szappan.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 34
+name = Nikon
+price = 3999.99
+brand = DSLR Nikon D5300,
+rating = 5
+data = null
+description = Rez. senzor (Mp):24.2Dimensiune senzor (mm):15.6 x 23.5Procesor imagine:EXPEED 4Puncte de focalizare:39 sau 11 (selectabile),Rezolutii foto:6000 x 4000 4496 x 3000 2992 x 2000
+category_id = 1013
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\DSRL.jpg
+fileName = DSRL.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 35
+name = Samsung
+price = 369.99
+brand = Smartwatch Evolio X-Watc
+rating = 4
+data = null
+description = Rezolutie (pixeli):240 x 204Culoare:ArgintiuTelefoane compatibile:iOS(7.0 sau superior)/Android(4.3 sau superior)Durata de functionare:2 pana la 5 zileAltele:Pedometru Senzor puls G-SenzorGreutate:52 g
+category_id = 13
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Evolio.jpg
+fileName = Evolio.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+
+id = 36
+name = Samsung
+price = 1479.99
+brand = Smartwatch Samsung Gear S2 Sport
+rating = 5
+data = null
+description = Procesor Dual core 1.0 GHz Memorie RAM: 512 MB Memorie interna: 4 GB IP68Greutate:47g
+category_id = 13
+image = C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Samsun smart.jpg
+fileName = Samsun smart.jpg
+Category = System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0
+Orders = System.Collections.Generic.HashSet`1[ElectronRepository.Order]
+Stocks = System.Collections.Generic.HashSet`1[ElectronRepository.Stock]
+
+

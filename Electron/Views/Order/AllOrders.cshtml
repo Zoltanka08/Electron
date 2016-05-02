@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Electron.ViewModels.OrderViewModel>
+
+@{
+    ViewBag.Title = "All Orders";
+}
+
+<h2 class="col-md-12 text-center" id="loginText">All Orders</h2>
+
+<table class="table table-bordered table-hover table-striped">
+    <tr>
+        <th>
+            @Html.DisplayName("Username")
+        </th>
+        <th>
+            @Html.DisplayName("Product")
+        </th>
+        <th>
+            @Html.DisplayName("Price")
+        </th>
+        <th>
+            @Html.DisplayName("Payment Method")
+        </th>
+        <th>
+            @Html.DisplayName("State")
+        </th>
+        <th>
+            @Html.DisplayName("Data")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.price) RON
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentMethod.method)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderState.state)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data)
+            </td>
+            <td>
+                @{if (item.OrderState.state.Equals("Unconfirmed"))
+                {
+                    @Html.ActionLink("Confirm", "Confirm", "Order", new { order_id = item.id, user_id = item.user_id }, null)
+                }
+                else
+                {
+                    @Html.ActionLink("Unconfirm", "Unconfirm", "Order", new { order_id = item.id, user_id = item.user_id }, null)
+                }
+                }
+            </td>
+        </tr>
+    }
+
+</table>
+
+@{  double total = 0.0;
+  foreach (var item in Model)
+  {
+      total += (double)item.Product.price;
+  }
+<div id="loginText" class="col-md-12 text-center">
+    Total Price: @total RON
+    @Html.ValidationMessage("ZeroCantity")
+</div>
+}

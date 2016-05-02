@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Electron.ViewModels.StockViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p id="stockText" class="col-md-12 text-center title">Stock</p>
+
+<table class="table table-bordered table-hover">
+    <tr id="loginText" class="text-center">
+        <th class="text-center">
+            @Html.DisplayName("Cantity")
+        </th>
+        <th class="text-center">
+            @Html.DisplayName("Brand")
+        </th>
+        <th class="text-center">
+            @Html.DisplayName("Model")
+        </th>
+        <th class="text-center">
+            @Html.DisplayName("Category")
+        </th>
+        <th class="text-center">
+            @Html.DisplayName("Image")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td id="stockTableText" class="text-center">
+                @Html.DisplayFor(modelItem => item.cantity)
+            </td>
+            <td id="stockTableText" class="text-center">
+                @Html.DisplayFor(modelItem => item.Product.name)
+            </td>
+            <td id="stockTableText" class="text-center">
+                @Html.DisplayFor(modelItem => item.Product.brand)
+            </td>
+            <td id="stockTableText" class="text-center">
+                @Html.DisplayFor(modelItem => item.Product.Category.name)
+            </td>
+            <td id="stockTableText" class="text-center">
+                @{
+        string path = @"Images\" + @item.Product.fileName;
+        <img src="@path" alt="@item.Product.fileName" height="200" width="250" />
+
+                }
+            </td>
+            <td id="stockTableText" class="text-center">
+                @Html.ActionLink("Edit", "Edit", new { id = item.id })
+            </td>
+
+        </tr>
+    }
+
+</table>

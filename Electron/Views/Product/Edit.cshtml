@@ -1,0 +1,94 @@
+﻿@model Electron.ViewModels.ProductViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div id="editTitle" class="col-md-12 text-center">Edit</div>
+
+<br />
+
+
+<div class="content-wrapper">
+    <div class="col-md-4"></div>
+    <div id="borderSolid" class="col-md-4 text-center">
+        @using (Html.BeginForm("Edit", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend>ProductViewModel</legend>
+
+                @Html.HiddenFor(model => model.id)
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.name, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.name)
+                    @Html.ValidationMessageFor(model => model.name)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.price, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.price)
+                    @Html.ValidationMessageFor(model => model.price)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.brand, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.brand)
+                    @Html.ValidationMessageFor(model => model.brand)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.rating, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.rating)
+                    @Html.ValidationMessageFor(model => model.rating)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.category_id, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.category_id)
+                    @Html.ValidationMessageFor(model => model.category_id)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.image, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    <input type="file" name="file" class="center-block" />
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.description, new { @class = "text-left", id = "loginText" })
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.description)
+                    @Html.ValidationMessageFor(model => model.description)
+                </div>
+
+                <p>
+                    <input type="submit" value="Save" class="float-right" />
+                </p>
+            </fieldset>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "float-right" })
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
