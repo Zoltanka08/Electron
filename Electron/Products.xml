@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<Products>
+  <Product>
+    <id>2</id>
+    <name>Asus</name>
+    <price>1999.99</price>
+    <brand>Asus F55</brand>
+    <rating>4</rating>
+    <data>
+    </data>
+    <description>Capacitate memorie RAM:4 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Slot 1:4096 MB</description>
+    <category_id>0</category_id>
+    <image>C:\Users\Zoli\Documents\Visual Studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Asus F55.jpg</image>
+    <fileName>Asus F55.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>3</id>
+    <name>Samsung</name>
+    <price>2499.99</price>
+    <brand>Samsung Np350</brand>
+    <rating>4</rating>
+    <data>11/1/2016 12:00:00 AM</data>
+    <description>Rezolutie:1366 x 768Format display:HDTip display:LCD LED,Tip memorie video:DedicataCapacitate memorie video:2048 MB</description>
+    <category_id>0</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\samsung_np350.jpg</image>
+    <fileName>samsung_np350.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>4</id>
+    <name>Acer</name>
+    <price>2799.99</price>
+    <brand>Satellite P55t</brand>
+    <rating>5</rating>
+    <data>11/1/2015 12:00:00 AM</data>
+    <description>Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB</description>
+    <category_id>0</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Toshiba_Satellite_P55t.jpg</image>
+    <fileName>Toshiba_Satellite_P55t.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>5</id>
+    <name>Acer</name>
+    <price>1599.99</price>
+    <brand>Acer Aspire V5</brand>
+    <rating>3</rating>
+    <data>9/1/2016 12:00:00 AM</data>
+    <description>Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB</description>
+    <category_id>0</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\acer_aspire_v5.jpg</image>
+    <fileName>acer_aspire_v5.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>7</id>
+    <name>HP</name>
+    <price>2599.99</price>
+    <brand>HP Pavilion dv7</brand>
+    <rating>5</rating>
+    <data>6/1/2016 12:00:00 AM</data>
+    <description>Tip procesor:Intel® CoreTM i7Model procesor:4720HQNumar nuclee:4Tehnologie procesor:22 nmFrecventa procesor:2600 MHzArhitectura:HaswellCache:6144 KB</description>
+    <category_id>0</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\HP_Pavilion_dv7.jpg</image>
+    <fileName>HP_Pavilion_dv7.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>16</id>
+    <name>Apple IPhone</name>
+    <price>1749.99</price>
+    <brand>IPhone S5</brand>
+    <rating>5</rating>
+    <data>11/1/2016 12:00:00 AM</data>
+    <description>Model Procesor:A7 64-bit (coprecesor M7 motion), Memorie RAM:1 GBMemorie interna:16 GB</description>
+    <category_id>2</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\IPhone S5.jpg</image>
+    <fileName>IPhone S5.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>19</id>
+    <name>Motorola</name>
+    <price>2199.99</price>
+    <brand>Motorola Moto 360</brand>
+    <rating>4</rating>
+    <data>11/1/2016 12:00:00 AM</data>
+    <description>Procesor Qualcomm Snapdragon 1.2GHz, Memorie (MB): 512, Memorie interna 4GB</description>
+    <category_id>13</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Moto.jpg</image>
+    <fileName>Moto.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>20</id>
+    <name>Lenovo</name>
+    <price>649</price>
+    <brand>Lenovo Tab2 A10-30</brand>
+    <rating>4</rating>
+    <data>11/1/2016 12:00:00 AM</data>
+    <description>Capacitate memorie RAM:4 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Slot 1:4096 MB</description>
+    <category_id>3</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Tableta Lenovo.jpg</image>
+    <fileName>Tableta Lenovo.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>21</id>
+    <name>Samsung</name>
+    <price>1599.99</price>
+    <brand>Samsung Galaxy S5</brand>
+    <rating>5</rating>
+    <data>
+    </data>
+    <description>Model Procesor:Quad CoreFrecventa procesor:2500, Slot memorie (tip):MicroSD (pana la 128 GB)Memorie RAM:2 GBMemorie interna:16 GB</description>
+    <category_id>2</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Samsung Galaxy S5.jpg</image>
+    <fileName>Samsung Galaxy S5.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>22</id>
+    <name>Apple IPhone</name>
+    <price>4000.99</price>
+    <brand>iPhone 6S</brand>
+    <rating>5</rating>
+    <data>
+    </data>
+    <description>Sistem de operare:IOS 9Tip SIM:nanoSIM Memorie Slot memorie (tip):NuMemorie RAM:2 GBMemorie interna:64 GB</description>
+    <category_id>2</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\IPhone S6.jpg</image>
+    <fileName>IPhone S6.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>23</id>
+    <name>Huawei</name>
+    <price>999.99</price>
+    <brand>Huawei P8 Lite</brand>
+    <rating>4</rating>
+    <data>
+    </data>
+    <description>Model Procesor:Hisilicon Kirin 620 Octa CoreFrecventa procesor:1200, Slot memorie (tip):MicroSD (pana la 128 GB) in slot SIM 2Memorie RAM:2 GBMemorie interna:16 GB, Tip display:IPS LCDRezolutie (pixeli):1280 x 720</description>
+    <category_id>2</category_id>
+    <image>c:\users\zoli\documents\visual studio 2013\Projects\ElectroShopMVC\ElectroShopMVC\Images\Huawei P8 Lite.jpg</image>
+    <fileName>Huawei P8 Lite.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>24</id>
+    <name>Asus </name>
+    <price>749</price>
+    <brand>Asus ZenPad</brand>
+    <rating>4</rating>
+    <data>
+    </data>
+    <description>Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB</description>
+    <category_id>3</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Asus Zen.jpg</image>
+    <fileName>Asus Zen.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>25</id>
+    <name>Asus</name>
+    <price>659.99</price>
+    <brand>Allview Viva H7 Xtreme</brand>
+    <rating>4</rating>
+    <data>
+    </data>
+    <description>Capacitate memorie RAM:4 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Slot 1:4096 MB</description>
+    <category_id>3</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Allview Xtreme.jpg</image>
+    <fileName>Allview Xtreme.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>26</id>
+    <name>Lenovo</name>
+    <price>1149.99</price>
+    <brand>Lenovo Tab Yoga 2 </brand>
+    <rating>4</rating>
+    <data>
+    </data>
+    <description>Capacitate memorie RAM:8 GBTip memorie:DDR3Frecventa:1600 MHzNr sloturi/sloturi ocupate:1/1Memorie integrata:4096 MBSlot 1:4096 MB</description>
+    <category_id>3</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Lenovo Yoga.jpg</image>
+    <fileName>Lenovo Yoga.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>27</id>
+    <name>Samsung</name>
+    <price>1099.99</price>
+    <brand>Televizor LED Samsung</brand>
+    <rating>3</rating>
+    <data>
+    </data>
+    <description>Diagonala ecran (cm):80Rezolutie:1920 x 1080Aspect imagine:16:9Caracteristici superioare imagine:PQI 200 Mega Contrast Wide Color Enhancer (Plus) Film Mode</description>
+    <category_id>4</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Samsung LED.jpg</image>
+    <fileName>Samsung LED.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>28</id>
+    <name>Philips</name>
+    <price>2199.99</price>
+    <brand>Televizor Smart Android 3D LED Philips</brand>
+    <rating>5</rating>
+    <data>11/10/2015 12:00:00 AM</data>
+    <description>Diagonala ecran (cm):102Rezolutie:1920 x 1080Luminozitate:350 cd/mpAspect imagine:16:9Caracteristici superioare imagine:Perfect Motion Rate 800 Micro Dimming Pro Super resolution Perfect Natural Motion</description>
+    <category_id>4</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Philips Android.jpg</image>
+    <fileName>Philips Android.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>29</id>
+    <name>Sony</name>
+    <price>779</price>
+    <brand>Televizor LED UTOK</brand>
+    <rating>3</rating>
+    <data>
+    </data>
+    <description>Diagonala ecran (cm):80Rezolutie:1366 x 768Luminozitate:200 cd/m²Timp de raspuns:6.5 msAspect imagine:16 : 9Contrast nativ:3000:1Unghi de vizibilitate:178 / 178</description>
+    <category_id>4</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\UTKO.jpg</image>
+    <fileName>UTKO.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>30</id>
+    <name>Sony</name>
+    <price>999.99</price>
+    <brand>Sony HDRCX240EB</brand>
+    <rating>3</rating>
+    <data>
+    </data>
+    <description>Mediu inregistrare:Memory CardTip memorie:Memory Stick Micro MicroSDHC Micro SDXC Micro SDFormat inregistrare video:Full HD HDMod inregistrare:HD: 1920 x 1080 / 50P HD: 1440 x 1080 1280 x 720 / 25pFormate suportate:MPEG-4 AVC/H.264</description>
+    <category_id>5</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Sony Camera.jpg</image>
+    <fileName>Sony Camera.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>31</id>
+    <name>Sony</name>
+    <price>6999.99</price>
+    <brand>Sony HDRCX900EB</brand>
+    <rating>5</rating>
+    <data>
+    </data>
+    <description>Mod inregistrare:HD: 1920 x 1080 / 50p (PS), 25p (FX,FH), 50i (FX,FH) HD: 1920 x 1080 / 50P, 25P, 24P HD: 1440 x 1080 / 50i (HQ,LP)</description>
+    <category_id>5</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Sony Best.jpg</image>
+    <fileName>Sony Best.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>32</id>
+    <name>Canon</name>
+    <price>698</price>
+    <brand>Canon PowerShot SX410</brand>
+    <rating>4</rating>
+    <data>
+    </data>
+    <description>Rezolutie senzor:20.0 MpProcesor imagine:DIGIC 4 cu tehnologie iSAPSDimensiune senzor:1/2.3"Format fisier imagine:JPEG (Exif 2.3 / DPOF 1.1)Stabilizator de imagine:Da (cu deplasarea obiectivului), aprox. 2,5 trepte</description>
+    <category_id>1013</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Canon.jpg</image>
+    <fileName>Canon.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>33</id>
+    <name>Sony</name>
+    <price>347.99</price>
+    <brand>Sony DSCW810B</brand>
+    <rating>3</rating>
+    <data>
+    </data>
+    <description>Rezolutie senzor:20.0 MpDimensiune senzor:1/2.3"Format fisier imagine:JPEGStabilizator de imagine:Stabilizare electrica SteadyShot</description>
+    <category_id>1013</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Sony Szappan.jpg</image>
+    <fileName>Sony Szappan.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>34</id>
+    <name>Nikon</name>
+    <price>3999.99</price>
+    <brand>DSLR Nikon D5300,</brand>
+    <rating>5</rating>
+    <data>
+    </data>
+    <description>Rez. senzor (Mp):24.2Dimensiune senzor (mm):15.6 x 23.5Procesor imagine:EXPEED 4Puncte de focalizare:39 sau 11 (selectabile),Rezolutii foto:6000 x 4000 4496 x 3000 2992 x 2000</description>
+    <category_id>1013</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\DSRL.jpg</image>
+    <fileName>DSRL.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>35</id>
+    <name>Samsung</name>
+    <price>369.99</price>
+    <brand>Smartwatch Evolio X-Watc</brand>
+    <rating>4</rating>
+    <data>
+    </data>
+    <description>Rezolutie (pixeli):240 x 204Culoare:ArgintiuTelefoane compatibile:iOS(7.0 sau superior)/Android(4.3 sau superior)Durata de functionare:2 pana la 5 zileAltele:Pedometru Senzor puls G-SenzorGreutate:52 g</description>
+    <category_id>13</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Evolio.jpg</image>
+    <fileName>Evolio.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+  <Product>
+    <id>36</id>
+    <name>Samsung</name>
+    <price>1479.99</price>
+    <brand>Smartwatch Samsung Gear S2 Sport</brand>
+    <rating>5</rating>
+    <data>
+    </data>
+    <description>Procesor Dual core 1.0 GHz Memorie RAM: 512 MB Memorie interna: 4 GB IP68Greutate:47g</description>
+    <category_id>13</category_id>
+    <image>C:\Users\Zoli\Documents\ElectroShop\ElectroShopMVC\Images\Samsun smart.jpg</image>
+    <fileName>Samsun smart.jpg</fileName>
+    <Category>System.Data.Entity.DynamicProxies.Category_9A087D9CC0DBD99C8283744575834AE9486F88E6EDB6133AC6A9EB35D3C78FC0</Category>
+    <Orders>System.Collections.Generic.HashSet`1[ElectronRepository.Order]</Orders>
+    <Stocks>System.Collections.Generic.HashSet`1[ElectronRepository.Stock]</Stocks>
+  </Product>
+</Products>
