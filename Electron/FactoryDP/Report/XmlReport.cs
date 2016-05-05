@@ -8,28 +8,8 @@ namespace Electron.FactoryDP.Report
 {
     public class XmlReport : IReport
     {
-        public string path
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string type
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public string path { get; set; }
+        public string type { get; set; }
+        public string title { get; set; }
     }
 }

@@ -16,7 +16,7 @@ namespace Electron.Controllers
 {
     public class ProductController : Controller
     {
- 
+
         private IProductService productService;
         private IStockService stockService;
         private ICategoryService categoryService;
@@ -119,6 +119,7 @@ namespace Electron.Controllers
             ViewBag.categories = categories;
             ViewBag.brands = brands;
             ViewBag.costs = costs;
+            
 
             return View(productPageList);
         }
@@ -252,15 +253,41 @@ namespace Electron.Controllers
             return View(model);
         }
 
+        public ActionResult Report()
+        {
+            List<SelectListItem> items = GetSelectListForReportType();
+            ViewBag.ReportType = items;
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult Report(string ReportType = null)
         {
-            string reportTypeName = "txt";
-
-            ReportAssembler reportAssembler = new ReportAssembler(reportTypeName);
+            ReportAssembler reportAssembler = new ReportAssembler(ReportType);
             IReport report = reportAssembler.AssembleReport(productService.GetAllProducts());
 
             return File(report.path, report.type);
         }
 
+        private List<SelectListItem> GetSelectListForReportType()
+        {
+            List<SelectListItem> items = new List<SelectListItem>()
+            {
+                new SelectListItem()
+                {
+                    Value = "txt",
+                    Text = "Text Report",
+                    Selected = true
+                },
+                new SelectListItem()
+                {
+                    Value = "xml",
+                    Text = "Xml Report",
+                    Selected = false
+                }
+            };
+            
+            return items;
+        }
     }
 }

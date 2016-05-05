@@ -18,6 +18,7 @@
         @{if (Request.IsAuthenticated && ViewBag.isAdmin)
         {
             @Html.ActionLink("Create New", "Create")
+            @Html.ActionLink("Create Report", "Report","Product",null,null)
         }
         }
     </p>
@@ -80,7 +81,7 @@
                     nr = nr + 1;
                 }
                 }
-
+                
                 <div class="col-md-4">
                     @{
             string path = @"Images\" + @item.fileName;
@@ -97,9 +98,12 @@
                     @{
             if (Request.IsAuthenticated)
             {
-                <input type="button" value="Add To Cart" id="buttonText" class="btn-default" onclick="location.href='@Url.Action("AddToCart", "Order", new { product_id = item.id })'" />
+
+                <input type="button" value="Add To Cart" id="buttonText" class="btn-default"
+                       onclick="if (confirm('Are you sure?')) { window.location.href = '@Url.Action("AddToCart", "Order", new { product_id = item.id })'; }" />
+
             }
-                    }
+}
                     <hr />
                 </div>
 
@@ -120,9 +124,6 @@
         }
     </div>
 
-    <div>
-        @Html.ActionLink("Report", "Report", "Product", null, null);
-    </div>
     <div id='Paging' style="text-align: center">
         Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
         of @Model.PageCount
@@ -132,6 +133,17 @@
 </body>
 </html>
 
+
+
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+
+    $(function() {
+    $('#buttonText').click(function() {
+        if (confirm('Are you sure?')) {
+            window.location.href = $(this).data('url');
+        }
+    });
+});
+
 }

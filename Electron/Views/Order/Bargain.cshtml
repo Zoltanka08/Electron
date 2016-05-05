@@ -1,0 +1,46 @@
+﻿@model Electron.ViewModels.OrderViewModel
+
+@{
+    ViewBag.Title = "Bargain";
+}
+
+<h2>Bargain</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>OrderViewModel</legend>
+
+        @Html.HiddenFor(model => model.id)
+
+        <div class="editor-label">
+            @Html.Label("Original price")
+        </div>
+        <div class="editor-field">
+            @Html.DisplayTextFor(model => model.Product.price)
+            @Html.ValidationMessageFor(model => model.Product.price)
+        </div>
+
+        <div class="editor-label">
+            @Html.Label("Bargain price")
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.bargain)
+            @Html.ValidationMessageFor(model => model.bargain)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

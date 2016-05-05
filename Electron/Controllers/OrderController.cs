@@ -170,10 +170,33 @@ namespace Electron.Controllers
                 order.order_state_id = 1;
                 order.payment_id = Int32.Parse(value);
                 this.orderService.UpdateOrder(order);
+
+                if (order.bargain != null)
+                    order.Product.price = order.bargain;
                 chitanta.Products.Add(order.Product);
             }
 
             return View("Chitanta", chitanta);
+        }
+
+        public ActionResult Bargain(int id)
+        {
+            Order order = orderService.GetOrderById(id);
+            Mapper.CreateMap<Order, OrderViewModel>();
+            var orderView = Mapper.Map<Order, OrderViewModel>(order);
+
+            return View(orderView);
+        }
+
+        [HttpPost]
+        public ActionResult Bargain(OrderViewModel model)
+        {
+            Order order = orderService.GetOrderById(model.id);
+            order.bargain = model.bargain;
+
+            orderService.UpdateOrder(order);
+
+            return RedirectToAction("Index", "Order");
         }
 
     }

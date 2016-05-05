@@ -11,5 +11,6 @@ namespace Electron.FactoryDP.Report
     {
         public string path { get; set; }
         public string type { get; set; }
+        public string title { get; set; }
     }
 }

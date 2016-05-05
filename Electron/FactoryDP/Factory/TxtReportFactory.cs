@@ -19,13 +19,14 @@ namespace Electron.FactoryDP.Factory
             TxtReport txtReport = new TxtReport();
             txtReport.path = filePath;
             txtReport.type = "text/plain";
+            txtReport.title = "Products Text report";
 
             if(File.Exists(filePath))
             {
                 File.Delete(filePath);
             }
 
-            Services.Helpers.TxtWriter<Product>.WriteFile(products,filePath);
+            Services.Helpers.TxtWriter<Product>.WriteFile(products,filePath, txtReport.title);
             
             return txtReport;
         }

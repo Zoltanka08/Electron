@@ -15,6 +15,9 @@
             @Html.DisplayName("Price")
         </th>
         <th>
+            @Html.DisplayName("Bargain Price")
+        </th>
+        <th>
             @Html.DisplayName("Payment Method")
         </th>
         <th>
@@ -39,6 +42,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Product.price) RON
             </td>
+            @{
+                if(item.bargain != null)
+                {
+                    <td>
+                @Html.DisplayFor(modelItem => item.bargain) RON
+                    </td>
+                }
+            }
+            
             <td>
                 @Html.DisplayFor(modelItem => item.PaymentMethod.method)
             </td>
@@ -54,6 +66,9 @@
                     <button id="buttonText" type="submit" value="Delete" onclick="return confirm('Are you sure?')">Delete</button>
                     @Html.Hidden("id", item.id)
                 }
+            </td>
+            <td>
+                @Html.ActionLink("Bargain", "Bargain", "Order", new { id = item.id }, new { @class = "btn btn-success" })
             </td>
         </tr>
     }

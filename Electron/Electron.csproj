@@ -383,6 +383,8 @@
     <Content Include="Views\Order\AllOrders.cshtml" />
     <Content Include="Views\Order\Finalize.cshtml" />
     <Content Include="Views\Order\Chitanta.cshtml" />
+    <Content Include="Views\Product\Report.cshtml" />
+    <Content Include="Views\Order\Bargain.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
