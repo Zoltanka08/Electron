@@ -22,6 +22,7 @@
           <Property Name="payment_id" Type="int" />
           <Property Name="order_state_id" Type="int" />
           <Property Name="data" Type="date" />
+          <Property Name="bargain" Type="float" />
         </EntityType>
         <EntityType Name="OrderState">
           <Key>
@@ -298,6 +299,7 @@
           <Property Name="payment_id" Type="Int32" />
           <Property Name="order_state_id" Type="Int32" />
           <Property Name="data" Type="DateTime" Precision="0" />
+          <Property Name="bargain" Type="Double" />
           <NavigationProperty Name="OrderState" Relationship="ElectroShopModel.FK__Orders__order_st__2B3F6F97" FromRole="Order" ToRole="OrderState" />
           <NavigationProperty Name="PaymentMethod" Relationship="ElectroShopModel.FK__Orders__payment___2A4B4B5E" FromRole="Order" ToRole="PaymentMethod" />
           <NavigationProperty Name="Product" Relationship="ElectroShopModel.FK__Orders__product___29572725" FromRole="Order" ToRole="Product" />
@@ -481,7 +483,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-      </Schema>
+        </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
@@ -498,6 +500,7 @@
           <EntitySetMapping Name="Orders">
             <EntityTypeMapping TypeName="ElectroShopModel.Order">
               <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="bargain" ColumnName="bargain" />
                 <ScalarProperty Name="data" ColumnName="data" />
                 <ScalarProperty Name="order_state_id" ColumnName="order_state_id" />
                 <ScalarProperty Name="payment_id" ColumnName="payment_id" />

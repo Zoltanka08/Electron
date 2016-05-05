@@ -32,3 +32,5 @@ C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\Services.Tests\bin\
 C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\Services.Tests\bin\Debug\EntityFramework.xml
 C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\Services.Tests\obj\Debug\Services.Tests.dll
 C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\Services.Tests\obj\Debug\Services.Tests.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\Services.Tests\bin\Debug\Moq.dll
+C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\Services.Tests\bin\Debug\Moq.xml

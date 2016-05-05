@@ -14,19 +14,6 @@ namespace ElectronRepository.Tests
     [TestClass]
     public class RepositoryTest
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-            //Arrange
-            int expectedUserCount = 5;
-            IUserRepository userRepo = new UserRepository();
 
-            //Act
-            IEnumerable<User> users = userRepo.GetAll();
-            int actualUserCount = users.Count();
-
-            //Assert
-            Assert.AreEqual(expectedUserCount, actualUserCount);
-        }
     }
 }

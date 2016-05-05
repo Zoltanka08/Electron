@@ -29,3 +29,4 @@ C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\ElectronRepository\
 C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\ElectronRepository\bin\System.Web.WebPages.Razor.xml
 C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\ElectronRepository\obj\Debug\ElectronRepository.dll
 C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\ElectronRepository\obj\Debug\ElectronRepository.pdb
+C:\Users\Zoli\documents\visual studio 2013\Projects\Electron\ElectronRepository\obj\Debug\ElectronRepository.csprojResolveAssemblyReference.cache

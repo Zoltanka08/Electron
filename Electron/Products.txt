@@ -1,3 +1,5 @@
+Products Text report
+
 id = 2
 name = Asus
 price = 1999.99

@@ -61,6 +61,7 @@
     <Property Name="payment_id" Type="Int32" />
     <Property Name="order_state_id" Type="Int32" />
     <Property Name="data" Type="DateTime" Precision="0" />
+    <Property Name="bargain" Type="Double" />
     <NavigationProperty Name="OrderState" Relationship="ElectroShopModel.FK__Orders__order_st__2B3F6F97" FromRole="Order" ToRole="OrderState" />
     <NavigationProperty Name="PaymentMethod" Relationship="ElectroShopModel.FK__Orders__payment___2A4B4B5E" FromRole="Order" ToRole="PaymentMethod" />
     <NavigationProperty Name="Product" Relationship="ElectroShopModel.FK__Orders__product___29572725" FromRole="Order" ToRole="Product" />

@@ -20,6 +20,7 @@ namespace ElectronRepository
         public Nullable<int> payment_id { get; set; }
         public Nullable<int> order_state_id { get; set; }
         public Nullable<System.DateTime> data { get; set; }
+        public Nullable<double> bargain { get; set; }
     
         public virtual OrderState OrderState { get; set; }
         public virtual PaymentMethod PaymentMethod { get; set; }

@@ -17,6 +17,7 @@
     <Property Name="payment_id" Type="int" />
     <Property Name="order_state_id" Type="int" />
     <Property Name="data" Type="date" />
+    <Property Name="bargain" Type="float" />
   </EntityType>
   <EntityType Name="OrderState">
     <Key>
