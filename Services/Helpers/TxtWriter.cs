@@ -11,10 +11,13 @@ namespace Services.Helpers
 {
     public class TxtWriter<T> where T : class
     { 
-        public static void WriteFile(IEnumerable<object> entities, string fileName)
+        public static void WriteFile(IEnumerable<object> entities, string fileName, string title)
         {
             FileStream text = new FileStream(fileName, FileMode.Create, FileAccess.Write);
             StreamWriter writer = new StreamWriter(text);
+
+            writer.WriteLine(title);
+            writer.WriteLine();
 
             foreach (object entity in entities)
             {

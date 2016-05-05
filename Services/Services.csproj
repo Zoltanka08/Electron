@@ -113,6 +113,7 @@
     </Compile>
     <Compile Include="Helpers\EncryptPassword.cs" />
     <Compile Include="Helpers\TxtWriter.cs" />
+    <Compile Include="Helpers\XmlWriter.cs" />
     <Compile Include="Interfaces\ICategoryService.cs" />
     <Compile Include="Interfaces\IOrderService.cs" />
     <Compile Include="Interfaces\IPaymentMethodService.cs" />
